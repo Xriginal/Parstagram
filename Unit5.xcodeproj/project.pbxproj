@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A2D516ACB05BA6C9C3019EF /* Pods_Unit5_Unit5UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D1D503DDEE4C9352227B45 /* Pods_Unit5_Unit5UITests.framework */; };
+		5546A118271E533700A05570 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546A117271E533700A05570 /* CommentCell.swift */; };
 		5587E1AA270BE2F200930C44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587E1A9270BE2F200930C44 /* AppDelegate.swift */; };
 		5587E1AC270BE2F200930C44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587E1AB270BE2F200930C44 /* SceneDelegate.swift */; };
 		5587E1B1270BE2F200930C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5587E1AF270BE2F200930C44 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		39B66AEEBA4D9BA6B680A5AB /* Pods-Unit5-Unit5UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit5-Unit5UITests.release.xcconfig"; path = "Target Support Files/Pods-Unit5-Unit5UITests/Pods-Unit5-Unit5UITests.release.xcconfig"; sourceTree = "<group>"; };
 		41904E540002457D979E4918 /* Pods_Unit5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unit5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6F3BAD32FADDB0FDFB6695 /* Pods-Unit5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unit5.debug.xcconfig"; path = "Target Support Files/Pods-Unit5/Pods-Unit5.debug.xcconfig"; sourceTree = "<group>"; };
+		5546A117271E533700A05570 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		5587E1A6270BE2F200930C44 /* Unit5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5587E1A9270BE2F200930C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5587E1AB270BE2F200930C44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				5587E1DB270BF03600930C44 /* FeedViewController.swift */,
 				5587E1DF270BFCF400930C44 /* CameraViewController.swift */,
 				5587E1E1270C0B9E00930C44 /* PostCell.swift */,
+				5546A117271E533700A05570 /* CommentCell.swift */,
 			);
 			path = Unit5;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 				5587E1DC270BF03600930C44 /* FeedViewController.swift in Sources */,
 				5587E1AC270BE2F200930C44 /* SceneDelegate.swift in Sources */,
 				5587E1E2270C0B9E00930C44 /* PostCell.swift in Sources */,
+				5546A118271E533700A05570 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
